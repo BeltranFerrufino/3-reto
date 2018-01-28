@@ -1,0 +1,65 @@
+body{
+  margin: 0px;
+}
+.kame{
+  margin-top: 200px;
+  margin-left: 0px;
+  opacity: 0;
+  position: absolute;
+  top: 64px;
+  left: 62px;
+}
+.goku{
+  padding: 261px 00px 0px;
+  opacity: 1;
+}
+html:hover .kame{
+  margin-top: 44px;
+  margin-left: 412px;
+  opacity: 1;
+  transform: scale(7);
+  transition-duration: 1s;
+  transition-delay: 0.25s;
+}
+
+.cell{
+  position: absolute;
+  left: 359px;
+  top: 49px;
+  transform: rotate(20deg);
+  z-index: -1;
+  opacity: 1;
+}
+html:hover .cell{
+  position: absolute;
+  left: 900px;
+  top: -100px;
+  transform: rotate(20deg);
+  transform: scale(0.01);
+  transition-duration: 3s;
+  transition-delay: 0.7s;
+  opacity: 0;
+  transition: rotateX(270deg);
+  transition-duration: 2s;
+  transition-delay: 0.7s;
+}
+
+body:hover {
+  margin: 10px solid #0e5d84;
+}
+.platzi{
+  background-color: #1c3643;
+  width: 229px;
+  padding: 10px;
+  transition: rotateY(0deg);
+  transition-duration: 2s;
+  transition-delay: 0.7s;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+html:hover .platzi{
+  transition: rotateX(270deg);
+  transition-duration: 2s;
+  transition-delay: 0.7s;
+}
